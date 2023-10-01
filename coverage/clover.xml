@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1696166001687" clover="3.2.0">
+  <project timestamp="1696166001687" name="All files">
+    <metrics statements="558" coveredstatements="530" conditionals="101" coveredconditionals="80" methods="99" coveredmethods="88" elements="758" coveredelements="698" complexity="0" loc="558" ncloc="558" packages="12" files="71" classes="71"/>
+    <package name="src">
+      <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="app.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/app.ts">
+        <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="33" count="10" type="stmt"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
+      <metrics statements="13" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="database.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/config/database.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="envs.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/config/envs.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+        <line num="6" count="23" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="23" type="stmt"/>
+        <line num="13" count="23" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/config/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="74" coveredstatements="70" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="12"/>
+      <file name="authentication-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/authentication-controller.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+      <file name="enrollments-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/enrollments-controller.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="events-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/events-controller.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="hotel-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/hotel-controller.ts">
+        <metrics statements="11" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="payments-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/payments-controller.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+      </file>
+      <file name="tickets-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/tickets-controller.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+      <file name="users-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/users-controller.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.errors">
+      <metrics statements="36" coveredstatements="33" conditionals="3" coveredconditionals="2" methods="12" coveredmethods="9"/>
+      <file name="cannot-enroll-before-start-date-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/cannot-enroll-before-start-date-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="conflict-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/conflict-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="duplicate-email-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/duplicate-email-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+      <file name="enrollment-not-found-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/enrollment-not-found-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/index.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+      </file>
+      <file name="invalid-cep-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/invalid-cep-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="invalid-credentials-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/invalid-credentials-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+      </file>
+      <file name="invalid-data-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/invalid-data-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="invalid-email-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/invalid-email-error.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="not-found-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/not-found-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+      </file>
+      <file name="payment-required-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/payment-required-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="cond" truecount="0" falsecount="1"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+      <file name="request-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/request-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="unauthorized-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/unauthorized-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middlewares">
+      <metrics statements="54" coveredstatements="49" conditionals="22" coveredconditionals="19" methods="7" coveredmethods="6"/>
+      <file name="authentication-middleware.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/middlewares/authentication-middleware.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="58" type="stmt"/>
+        <line num="8" count="58" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="50" type="stmt"/>
+        <line num="11" count="50" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="50" type="stmt"/>
+        <line num="15" count="42" type="stmt"/>
+        <line num="16" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="34" type="stmt"/>
+        <line num="19" count="34" type="stmt"/>
+      </file>
+      <file name="error-handling-middleware.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/middlewares/error-handling-middleware.ts">
+        <metrics statements="26" coveredstatements="22" conditionals="17" coveredconditionals="15" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="11" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="54" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="53" type="cond" truecount="3" falsecount="0"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="29" count="43" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="35" count="32" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="9" type="stmt"/>
+        <line num="41" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="47" count="23" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="18" type="stmt"/>
+        <line num="53" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="65" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/middlewares/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+      </file>
+      <file name="validation-middleware.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/middlewares/validation-middleware.ts">
+        <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="50" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="50" type="stmt"/>
+        <line num="15" count="31" type="stmt"/>
+        <line num="19" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="21" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="23" count="26" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.repositories">
+      <metrics statements="54" coveredstatements="53" conditionals="1" coveredconditionals="1" methods="19" coveredmethods="18"/>
+      <file name="address-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/address-repository.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+      </file>
+      <file name="authentication-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/authentication-repository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="11" count="42" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+      </file>
+      <file name="enrollments-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/enrollments-repository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+      </file>
+      <file name="events-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/events-repository.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="hotels-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/hotels-repository.ts">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+      </file>
+      <file name="payments-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/payments-repository.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/tickets-repository.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="10" type="stmt"/>
+      </file>
+      <file name="users-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/users-repository.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="11" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routers">
+      <metrics statements="53" coveredstatements="53" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="authentication-router.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/authentication-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+      </file>
+      <file name="enrollments-router.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/enrollments-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+      <file name="events-router.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/events-router.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+      </file>
+      <file name="hotels-router.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/hotels-router.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="paymets-router.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/paymets-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-router.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/tickets-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+      <file name="users-router.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/routers/users-router.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.schemas">
+      <metrics statements="30" coveredstatements="29" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="authentication-schemas.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/schemas/authentication-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+      </file>
+      <file name="enrollments-schemas.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/schemas/enrollments-schemas.ts">
+        <metrics statements="19" coveredstatements="18" conditionals="6" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="5" count="13" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="23" count="351" type="stmt"/>
+        <line num="31" count="29" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="29" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="28" type="stmt"/>
+        <line num="41" count="19" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="19" type="cond" truecount="1" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="18" type="stmt"/>
+        <line num="51" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="23" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/schemas/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+      </file>
+      <file name="payments-schemas.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/schemas/payments-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-schemas.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/schemas/tickets-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+      </file>
+      <file name="users-schemas.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/schemas/users-schemas.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="4" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="140" coveredstatements="129" conditionals="39" coveredconditionals="30" methods="23" coveredmethods="21"/>
+      <file name="authentication-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/authentication-service.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="25" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="42" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="10" type="stmt"/>
+      </file>
+      <file name="enrollments-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/enrollments-service.ts">
+        <metrics statements="25" coveredstatements="24" conditionals="9" coveredconditionals="7" methods="5" coveredmethods="5"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+      </file>
+      <file name="events-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/events-service.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="10" type="stmt"/>
+      </file>
+      <file name="hotels-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/hotels-service.ts">
+        <metrics statements="25" coveredstatements="15" conditionals="13" coveredconditionals="7" methods="3" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="44" count="10" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="payments-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/payments-service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+      </file>
+      <file name="tickets-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/tickets-service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+      </file>
+      <file name="users-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/users-service.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="prisma-utils.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/utils/prisma-utils.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="4" count="18" type="stmt"/>
+        <line num="6" count="12" type="stmt"/>
+      </file>
+      <file name="request.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/utils/request.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests">
+      <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="helpers.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/helpers.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="51" type="stmt"/>
+        <line num="9" count="51" type="stmt"/>
+        <line num="10" count="51" type="stmt"/>
+        <line num="11" count="51" type="stmt"/>
+        <line num="12" count="51" type="stmt"/>
+        <line num="13" count="51" type="stmt"/>
+        <line num="14" count="51" type="stmt"/>
+        <line num="15" count="51" type="stmt"/>
+        <line num="16" count="51" type="stmt"/>
+        <line num="17" count="51" type="stmt"/>
+        <line num="18" count="51" type="stmt"/>
+        <line num="19" count="51" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="23" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="34" type="stmt"/>
+        <line num="26" count="34" type="stmt"/>
+        <line num="28" count="34" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.factories">
+      <metrics statements="52" coveredstatements="51" conditionals="24" coveredconditionals="23" methods="11" coveredmethods="10"/>
+      <file name="enrollments-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/enrollments-factory.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="25" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="25" type="stmt"/>
+        <line num="35" count="9" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+      <file name="events-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/events-factory.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+      <file name="hotels-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/hotels-factory.ts">
+        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+      </file>
+      <file name="payments-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/payments-factory.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+      </file>
+      <file name="sessions-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/sessions-factory.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="34" type="stmt"/>
+        <line num="8" count="34" type="stmt"/>
+      </file>
+      <file name="tickets-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/tickets-factory.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="5" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="19" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+      </file>
+      <file name="users-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/users-factory.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="87" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="87" type="stmt"/>
+        <line num="10" count="87" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
