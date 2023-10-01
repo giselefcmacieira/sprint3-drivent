@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1696166001687" clover="3.2.0">
-  <project timestamp="1696166001687" name="All files">
-    <metrics statements="558" coveredstatements="530" conditionals="101" coveredconditionals="80" methods="99" coveredmethods="88" elements="758" coveredelements="698" complexity="0" loc="558" ncloc="558" packages="12" files="71" classes="71"/>
+<coverage generated="1696169236758" clover="3.2.0">
+  <project timestamp="1696169236758" name="All files">
+    <metrics statements="561" coveredstatements="548" conditionals="102" coveredconditionals="87" methods="99" coveredmethods="92" elements="762" coveredelements="727" complexity="0" loc="561" ncloc="561" packages="12" files="71" classes="71"/>
     <package name="src">
       <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="app.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/app.ts">
@@ -51,7 +51,7 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="74" coveredstatements="70" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="12"/>
+      <metrics statements="74" coveredstatements="74" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
       <file name="authentication-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/authentication-controller.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="10" type="stmt"/>
@@ -86,7 +86,7 @@
         <line num="7" count="1" type="stmt"/>
       </file>
       <file name="hotel-controller.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/hotel-controller.ts">
-        <metrics statements="11" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="6" count="10" type="stmt"/>
@@ -94,10 +94,10 @@
         <line num="8" count="7" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="12" count="10" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/controllers/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -211,12 +211,12 @@
       <file name="not-found-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="10" type="stmt"/>
-        <line num="4" count="9" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
       </file>
       <file name="payment-required-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/payment-required-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="10" type="cond" truecount="0" falsecount="1"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -226,7 +226,7 @@
       <file name="unauthorized-error.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="10" type="stmt"/>
-        <line num="4" count="18" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
@@ -237,40 +237,40 @@
         <line num="3" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="6" count="10" type="stmt"/>
-        <line num="7" count="58" type="stmt"/>
-        <line num="8" count="58" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="50" type="stmt"/>
-        <line num="11" count="50" type="cond" truecount="0" falsecount="1"/>
-        <line num="13" count="50" type="stmt"/>
-        <line num="15" count="42" type="stmt"/>
-        <line num="16" count="42" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="34" type="stmt"/>
-        <line num="19" count="34" type="stmt"/>
+        <line num="7" count="68" type="stmt"/>
+        <line num="8" count="68" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="59" type="stmt"/>
+        <line num="11" count="59" type="cond" truecount="0" falsecount="1"/>
+        <line num="13" count="59" type="stmt"/>
+        <line num="15" count="50" type="stmt"/>
+        <line num="16" count="50" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="41" type="stmt"/>
+        <line num="19" count="41" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/middlewares/error-handling-middleware.ts">
         <metrics statements="26" coveredstatements="22" conditionals="17" coveredconditionals="15" methods="1" coveredmethods="1"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="11" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="65" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="2" type="stmt"/>
-        <line num="17" count="54" type="cond" truecount="3" falsecount="0"/>
+        <line num="17" count="63" type="cond" truecount="3" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="23" count="53" type="cond" truecount="3" falsecount="0"/>
-        <line num="24" count="10" type="stmt"/>
-        <line num="29" count="43" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="62" type="cond" truecount="3" falsecount="0"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="29" count="51" type="cond" truecount="1" falsecount="0"/>
         <line num="30" count="11" type="stmt"/>
-        <line num="35" count="32" type="cond" truecount="1" falsecount="0"/>
-        <line num="36" count="9" type="stmt"/>
-        <line num="41" count="23" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="40" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="12" type="stmt"/>
+        <line num="41" count="28" type="cond" truecount="0" falsecount="1"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="47" count="23" type="cond" truecount="1" falsecount="0"/>
-        <line num="48" count="18" type="stmt"/>
-        <line num="53" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="47" count="28" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="20" type="stmt"/>
+        <line num="53" count="8" type="cond" truecount="1" falsecount="0"/>
         <line num="54" count="1" type="stmt"/>
-        <line num="57" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="57" count="7" type="cond" truecount="0" falsecount="1"/>
         <line num="58" count="0" type="stmt"/>
-        <line num="61" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="62" count="3" type="stmt"/>
+        <line num="61" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="6" type="stmt"/>
         <line num="65" count="1" type="cond" truecount="3" falsecount="0"/>
         <line num="66" count="1" type="stmt"/>
         <line num="72" count="0" type="stmt"/>
@@ -299,7 +299,7 @@
       </file>
     </package>
     <package name="src.repositories">
-      <metrics statements="54" coveredstatements="53" conditionals="1" coveredconditionals="1" methods="19" coveredmethods="18"/>
+      <metrics statements="54" coveredstatements="54" conditionals="1" coveredconditionals="1" methods="19" coveredmethods="19"/>
       <file name="address-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/address-repository.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="10" type="stmt"/>
@@ -310,7 +310,7 @@
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="5" type="stmt"/>
-        <line num="11" count="42" type="stmt"/>
+        <line num="11" count="50" type="stmt"/>
         <line num="18" count="10" type="stmt"/>
       </file>
       <file name="enrollments-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/enrollments-repository.ts">
@@ -327,12 +327,12 @@
         <line num="7" count="10" type="stmt"/>
       </file>
       <file name="hotels-repository.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/hotels-repository.ts">
-        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="10" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="9" count="7" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
         <line num="27" count="10" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/repositories/index.ts">
@@ -514,7 +514,7 @@
       </file>
     </package>
     <package name="src.services">
-      <metrics statements="140" coveredstatements="129" conditionals="39" coveredconditionals="30" methods="23" coveredmethods="21"/>
+      <metrics statements="143" coveredstatements="141" conditionals="40" coveredconditionals="37" methods="23" coveredmethods="22"/>
       <file name="authentication-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/authentication-service.ts">
         <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="2" count="10" type="stmt"/>
@@ -583,7 +583,7 @@
         <line num="27" count="10" type="stmt"/>
       </file>
       <file name="hotels-service.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/hotels-service.ts">
-        <metrics statements="25" coveredstatements="15" conditionals="13" coveredconditionals="7" methods="3" coveredmethods="1"/>
+        <metrics statements="28" coveredstatements="27" conditionals="14" coveredconditionals="14" methods="3" coveredmethods="2"/>
         <line num="1" count="10" type="stmt"/>
         <line num="3" count="10" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -599,16 +599,19 @@
         <line num="23" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="24" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="44" count="10" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="10" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/src/services/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -711,27 +714,27 @@
         <line num="4" count="9" type="stmt"/>
         <line num="5" count="9" type="stmt"/>
         <line num="7" count="9" type="stmt"/>
-        <line num="8" count="51" type="stmt"/>
-        <line num="9" count="51" type="stmt"/>
-        <line num="10" count="51" type="stmt"/>
-        <line num="11" count="51" type="stmt"/>
-        <line num="12" count="51" type="stmt"/>
-        <line num="13" count="51" type="stmt"/>
-        <line num="14" count="51" type="stmt"/>
-        <line num="15" count="51" type="stmt"/>
-        <line num="16" count="51" type="stmt"/>
-        <line num="17" count="51" type="stmt"/>
-        <line num="18" count="51" type="stmt"/>
-        <line num="19" count="51" type="stmt"/>
+        <line num="8" count="61" type="stmt"/>
+        <line num="9" count="61" type="stmt"/>
+        <line num="10" count="61" type="stmt"/>
+        <line num="11" count="61" type="stmt"/>
+        <line num="12" count="61" type="stmt"/>
+        <line num="13" count="61" type="stmt"/>
+        <line num="14" count="61" type="stmt"/>
+        <line num="15" count="61" type="stmt"/>
+        <line num="16" count="61" type="stmt"/>
+        <line num="17" count="61" type="stmt"/>
+        <line num="18" count="61" type="stmt"/>
+        <line num="19" count="61" type="stmt"/>
         <line num="22" count="9" type="stmt"/>
-        <line num="23" count="34" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="34" type="stmt"/>
-        <line num="26" count="34" type="stmt"/>
-        <line num="28" count="34" type="stmt"/>
+        <line num="23" count="41" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="41" type="stmt"/>
+        <line num="26" count="41" type="stmt"/>
+        <line num="28" count="41" type="stmt"/>
       </file>
     </package>
     <package name="tests.factories">
-      <metrics statements="52" coveredstatements="51" conditionals="24" coveredconditionals="23" methods="11" coveredmethods="10"/>
+      <metrics statements="52" coveredstatements="52" conditionals="24" coveredconditionals="23" methods="11" coveredmethods="11"/>
       <file name="enrollments-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/enrollments-factory.ts">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
@@ -739,8 +742,8 @@
         <line num="5" count="9" type="stmt"/>
         <line num="6" count="9" type="stmt"/>
         <line num="8" count="9" type="stmt"/>
-        <line num="9" count="25" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="25" type="stmt"/>
+        <line num="9" count="31" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="31" type="stmt"/>
         <line num="35" count="9" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
       </file>
@@ -753,13 +756,13 @@
         <line num="7" count="4" type="stmt"/>
       </file>
       <file name="hotels-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/hotels-factory.ts">
-        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="1"/>
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
         <line num="3" count="9" type="stmt"/>
         <line num="4" count="9" type="stmt"/>
-        <line num="5" count="7" type="stmt"/>
+        <line num="5" count="17" type="stmt"/>
         <line num="12" count="9" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -786,17 +789,17 @@
         <line num="2" count="9" type="stmt"/>
         <line num="3" count="9" type="stmt"/>
         <line num="5" count="9" type="stmt"/>
-        <line num="6" count="34" type="stmt"/>
-        <line num="8" count="34" type="stmt"/>
+        <line num="6" count="41" type="stmt"/>
+        <line num="8" count="41" type="stmt"/>
       </file>
       <file name="tickets-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/tickets-factory.ts">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
         <line num="3" count="9" type="stmt"/>
         <line num="5" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="19" type="stmt"/>
+        <line num="6" count="24" type="stmt"/>
         <line num="16" count="9" type="stmt"/>
-        <line num="17" count="14" type="stmt"/>
+        <line num="17" count="19" type="stmt"/>
       </file>
       <file name="users-factory.ts" path="/home/gisele/Desktop/Driven/drivent/sprint 3/projeto21-drivent/tests/factories/users-factory.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -804,9 +807,9 @@
         <line num="2" count="9" type="stmt"/>
         <line num="4" count="9" type="stmt"/>
         <line num="6" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="87" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="87" type="stmt"/>
-        <line num="10" count="87" type="stmt"/>
+        <line num="7" count="102" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="102" type="stmt"/>
+        <line num="10" count="102" type="stmt"/>
       </file>
     </package>
   </project>

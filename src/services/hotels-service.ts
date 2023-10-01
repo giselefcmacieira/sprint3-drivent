@@ -1,7 +1,7 @@
 import { conflictError, duplicatedEmailError, enrollmentNotFoundError, notFoundError, paymentRequiredError } from "@/errors";
 
 import { hotelRepository } from "@/repositories";
-import { Enrollment } from "@prisma/client";
+import { Enrollment, Hotel } from "@prisma/client";
 
 async function getHotelss() {
     return await hotelRepository.findAll()
@@ -38,7 +38,11 @@ async function getHotelById(userId: number, hotelId: number) {
     if (ticket.status === 'RESERVED' || ticket.TicketType.isRemote || !ticket.TicketType.includesHotel) {
         throw paymentRequiredError('The ticket has not been paid yet')
     }
-    return await hotelRepository.findHotelsById(hotelId)
+    const hotel = await hotelRepository.findHotelsById(hotelId)
+    if (!hotel) {
+        throw notFoundError('That hotel do not exist!')
+    }
+    return hotel
 }
 
 export const hotelService = { getHotels, getHotelById, getHotelss }
